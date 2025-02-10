@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blue-btn-md: 53 156 246;
+  --blue-dk: 10 13 77;
+  --blue-menu-md: 46 194 246;
+  --blue-stripe-lt: 235 246 255;
+  --blue-stripe-md: 196 227 254;
+  --blue-stripe-rich: 0 216 255;
+
+  --green-primary: 1 222 170;
+
+  --grey-light: 217 217 217;
+
+  --red-primary: 237 7 42;
+
+  --purple-primary: 148 153 255;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--neue-montreal);
+}
