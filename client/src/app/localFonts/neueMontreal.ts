@@ -11,7 +11,7 @@ export const neueMontreal = localFont({
       weight: "300",
     },
     {
-      path: "./fonts/PPNeueMontreal/PPNeueMontreal-Medium.otf",
+      path: "./fonts/PPNeueMontreal/PPNeueMontreal-Book.otf",
       weight: "400",
     },
     {

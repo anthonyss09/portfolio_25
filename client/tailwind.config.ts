@@ -9,6 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        blue25: "rgb(var(--blue-25))",
         blueBtnMd: "rgb(var(--blue-btn-md))",
         blueMenuMd: "rgb(var(--blue-menu-md))",
         blueDk: "rgb(var(--blue-dk))",
@@ -20,6 +21,17 @@ export default {
         purplePrimary: "rgb(var(--purple-primary))",
         redPrimary: "rgb(var(--red-primary))",
       },
+      fontFamily: {
+        sans: ["var(--neue-montreal)"],
+        lato: ["var(--lato))"],
+      },
+    },
+    screens: {
+      xs: "460px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
     },
   },
   plugins: [],

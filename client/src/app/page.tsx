@@ -1,3 +1,17 @@
+import HeaderSection from "./componets/HeaderSection";
+import LinksFooter from "./componets/LinksFooter";
+import BtnMenu from "./componets/BtnMenu";
+
 export default function Home() {
-  return <div className="font-[200]">Hello world!</div>;
+  return (
+    <>
+      <BtnMenu />
+      <HeaderSection />
+      {/* <main className={`h-[400px] flex justify-center items-center`}>
+        {" "}
+        <Loading />
+      </main> */}
+      <LinksFooter />
+    </>
+  );
 }

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+  --blue-25: 0 122 204;
   --blue-btn-md: 53 156 246;
   --blue-dk: 10 13 77;
   --blue-menu-md: 46 194 246;
@@ -26,5 +27,5 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: var(--neue-montreal);
+  font-family: var(--lato);
 }
