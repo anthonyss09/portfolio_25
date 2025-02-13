@@ -1,16 +1,17 @@
 import HeaderSection from "./componets/HeaderSection";
 import LinksFooter from "./componets/LinksFooter";
 import BtnMenu from "./componets/BtnMenu";
+import DevSection from "./componets/DevSection";
 
 export default function Home() {
   return (
     <>
       <BtnMenu />
       <HeaderSection />
-      {/* <main className={`h-[400px] flex justify-center items-center`}>
+      <main className={`pt-16`}>
         {" "}
-        <Loading />
-      </main> */}
+        <DevSection />
+      </main>
       <LinksFooter />
     </>
   );
