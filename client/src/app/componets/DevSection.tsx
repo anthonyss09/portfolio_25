@@ -1,6 +1,6 @@
 export default function DevSection() {
   return (
-    <section className="h-[800px]">
+    <section className="mb-12">
       <h3 className="h-32px mb-12 text-[20px] font-bold ml-8 relative sm:text-[24px] sm:mb-20">
         <p className="relative z-10">Development at a glance.</p>
         <div className="h-[48px] w-2/3 bg-greyLight/20 absolute right-12 top-0 z-0 sm:h-[64px] sm:bg-greyLight/30"></div>
