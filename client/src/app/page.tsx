@@ -4,6 +4,7 @@ import BtnMenu from "./componets/BtnMenu";
 import DevSection from "./componets/DevSection";
 import BlissSection from "./componets/BlissSection";
 import AboutSection from "./componets/AboutSection";
+import ContactSection from "./componets/ContactSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
         <BlissSection />
         <h3 className="text-center m-32 text-[30px]">More about me.</h3>
         <AboutSection />
+        <h3 className="text-center m-32 text-[30px]">Why not reach out...</h3>
+        <ContactSection />
       </main>
       <LinksFooter />
     </>
