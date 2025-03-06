@@ -10,7 +10,7 @@ test("ContactSection", () => {
   const input = screen.getByLabelText("From:");
   const textarea = screen.getByLabelText("Content:");
   const btns = screen.getAllByRole("button");
-  const footer = screen.getByText("Product of AtoffettidevLlc 2025");
+  const footer = screen.getByText("AtoffettidevLlc");
   expect(btns).toHaveLength(5);
   expect(input).toBeDefined();
   expect(textarea).toBeDefined();

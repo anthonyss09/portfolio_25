@@ -1,5 +1,4 @@
 import HeaderSection from "./componets/HeaderSection";
-import LinksFooter from "./componets/LinksFooter";
 import BtnMenu from "./componets/BtnMenu";
 import DevSection from "./componets/DevSection";
 import BlissSection from "./componets/BlissSection";
@@ -11,9 +10,11 @@ export default function Home() {
     <>
       <BtnMenu />
       <HeaderSection />
-      <main className={`pt-16`}>
+      <main className={``}>
         {" "}
-        <h3 className="text-center m-32 text-[30px]">A look at development.</h3>
+        <h3 className="text-center my-32  text-[30px]">
+          Development at glance.
+        </h3>
         <DevSection />
         <h3 className="text-center m-32 text-[30px]">Case by case.</h3>
         <BlissSection />
@@ -22,7 +23,6 @@ export default function Home() {
         <h3 className="text-center m-32 text-[30px]">Why not reach out...</h3>
         <ContactSection />
       </main>
-      <LinksFooter />
     </>
   );
 }

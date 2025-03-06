@@ -11,18 +11,20 @@ export default function ContactForm() {
           className="w-full"
         />
       </div>
-      <div className="flex flex-col">
+      <div className="flex gap-2">
         {" "}
         <label htmlFor="content">Content:</label>
         <textarea
           id="content"
           rows={10}
-          placeholder="Send me a message."
+          placeholder="Send me a message..."
           className="w-full"
         />
       </div>
 
-      <button className="h-[40px] w-full bg-black text-white">Send</button>
+      <button className="h-[40px] w-full bg-black text-white font-[530]">
+        Send
+      </button>
     </form>
   );
 }

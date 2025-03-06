@@ -2,17 +2,18 @@ import Image from "next/image";
 
 export default function BtnContMain() {
   return (
-    <div className="w-min ml-2 p-2 bg-white/60 xs:ml-14 md:m-0  md:w-full">
+    <div className="mx-auto w-min xs:ml-14 md:m-0  md:w-full">
       {" "}
       <button
-        className={`h-[42px] w-[196px] bg-redPrimary text-white text-[18px]  font-[530]  flex items-center justify-around xs:w-[208px] md:w-full`}
+        className={`h-[36px] w-[128px] flex justify-center items-end  gap-4  md:w-full `}
       >
-        <p> Contact</p>
+        {/* <p className="font-[530] text-[16px]"> Contact</p> */}
         <Image
           src="/assets/svgs/arrowRW.svg"
           alt="arrow right"
           height={24}
           width={24}
+          className="self-center"
         />
       </button>
     </div>

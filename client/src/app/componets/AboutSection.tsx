@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section className="h-[600px] px-6 relative grid grid-cols-3 grid-rows-3 gap-4">
+    <section className="h-[600px] px-4 relative grid grid-cols-3 grid-rows-3 gap-4">
       <div className="z-[2] row-start-1 col-start-1 col-span-2 flex flex-col justify-center p-8 bg-blueStripeLt/80">
         <h6 className="text-[14px] md:text-[28px]">I love tech!</h6>
         <p className="text-[8px] md:text-[16px]">

@@ -1,35 +1,32 @@
 import ProfilePic from "./ProfilePic";
-import BtnContMain from "./BtnContMain";
+import Contacts from "./Contacts";
+import Stamp from "./Stamp";
 
 export default function Header() {
   return (
-    <header className="w-[352px] z-10 relative flex flex-col mt-[64px] mx-auto py-8 xs:mt-[120px]  xs:w-[440px] md:border-[1px] md:bg-white/60 md:border-greyLight/10 md:shadow-lg md:flex-row md:items-center md:justify-center md:gap-6 md:w-[768px] md:h-[560px] md:mt-24 md:py-[120px] md:border-0 lg:w-[90%]">
-      <div className="md:h-full md:flex md:flex-col md:justify-start md:gap-4">
+    <header className="bg-white w-full z-[110] relative py-20 bg-[rgb(252,252,252)] border-[10px] border-white md:mx-auto md:gap-6 md:w-[768px]">
+      <div className="absolute bottom-[-16px] right-6 ">
         {" "}
-        <div className="flex justify-start items-end gap-4 text-[32px] xs:ml-12 md:ml-0">
-          {" "}
-          <ProfilePic /> <p>Hi.</p>
-        </div>
-        <h1
-          className={`my-4 mt-4 ml-4 font-[400] text-[32px] leading-[34px] xs:ml-16 md:m-0 md:leading-[48px]`}
-        >
-          <p>I&apos;m Anthony Toffetti.</p>
-          <p>A Web Developer.</p>
-        </h1>
+        <Stamp />
       </div>
 
-      <div className="md:h-full md:flex md:flex-col md:justify-end md:gap-8 md:w-[336px]">
+      <div className="w-full flex gap-4 xs:justify-center  sm:w-[440px] sm:mx-auto md:gap-4">
         {" "}
-        <div
-          className={`w-[298px] my-4 mb-8 ml-4 py-4  text-[20px] font-[400] bg-white/60 leading-[26px] md:w-[336px] xs:ml-16 md:m-0  md:py-8 md:px-4 md:shadow-md`}
-        >
-          <p>I write clean, developer friendly</p>
-          <p></p>
-          <p>code, tested & optimized for</p>
-          <p></p>
-          <p>the internet.</p>
-        </div>
-        <BtnContMain />
+        <ProfilePic />
+        <h1 className={`font-[400] text-[24px] leading-[34px]`}>
+          <p className="">Hi.</p>
+          <p>I&apos;m Anthony Toffetti.</p>
+          <p className="">A Web Developer.</p>
+          <div
+            className={`mb-4 text-[16px] font-[400] text-black leading-[26px]`}
+          >
+            <p>
+              I write clean, developer friendly code, tested & optimized for the
+              internet.
+            </p>
+          </div>
+          <Contacts />
+        </h1>
       </div>
     </header>
   );
