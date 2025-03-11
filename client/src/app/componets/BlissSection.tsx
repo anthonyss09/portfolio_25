@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function BlissSection() {
   return (
-    <section className="mx-4 mb-20 pb-8 relative xs:w-min xs:flex xs:flex-col xs:justify-center  sm:flex-row md:mx-auto md:bg-[rgb(250,250,250)] md:p-20">
-      <div className="mb-2">
+    <section className="w-full px-4 py-8 mb-20 pb-8 relative xs:w-min xs:flex xs:flex-col xs:justify-center  sm:flex-row md:mx-auto bg-[rgb(250,250,250)] md:p-20">
+      <div className="mb-2 ">
         <h3 className="flex items-center gap-4">
           <p className="text-[32px]">Bliss+</p>
           <button className="w-[56px] h-[32px] text-center bg-purplePrimary text-white font-[530]">

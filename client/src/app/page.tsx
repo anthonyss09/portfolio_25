@@ -4,11 +4,12 @@ import DevSection from "./componets/DevSection";
 import BlissSection from "./componets/BlissSection";
 import AboutSection from "./componets/AboutSection";
 import ContactSection from "./componets/ContactSection";
+import Nav from "./componets/Nav";
 
 export default function Home() {
   return (
     <>
-      <BtnMenu />
+      <Nav />
       <HeaderSection />
       <main className={``}>
         {" "}

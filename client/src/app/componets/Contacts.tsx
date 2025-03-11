@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Contacts() {
   return (
-    <div className="flex gap-4 justify-start items-start md:h-full">
+    <div className="flex gap-4  bg-white mt-4 items-start justify-center md:h-full">
       {" "}
       <div className={`h-[28px] w-[28px] relative`}>
         {" "}
